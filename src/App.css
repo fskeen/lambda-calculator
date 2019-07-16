@@ -1,0 +1,74 @@
+.App {
+    background-color: #bb1233;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.logo-container {
+    /* background-color: purple; */
+    /* width: 100%; */
+    padding-bottom: 1rem;
+    transform: scale(.9);
+}
+
+.output {
+    width: 100%;
+    margin: 0 1rem 1rem 1rem;
+    height: 6rem;
+    border-radius: 3rem;
+    background-color: rgb(46, 46, 46);
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn-separator {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.number-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    /* border: 1px cyan solid; */
+}
+
+.specials-container {
+    display: flex;
+}
+
+
+
+.btn {
+    border-radius: 50%;
+    border: none;
+    border-bottom: 4px solid #420108;
+    color: white;
+    padding: 1rem;
+    margin: .25rem .75rem;
+    min-width: 4.5rem;
+    font-size: 2rem;
+}
+.special-btn {
+    background-color: #2160b0;
+}
+
+.operator-btn {
+    background-color: #3DB5E5;
+}
+
+.number-btn {
+    background-color: #113c78;
+    /* border: green 2px solid; */
+}
+
+.number-btn:nth-of-type(10) {
+    width: 9rem;
+    border: cyan 1px solid;
+}
