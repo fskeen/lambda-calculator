@@ -30,7 +30,7 @@ function App() {
           <Specials specials={specials}/>
           <Numbers numbers={numbers}/>
         </div>
-          {"Operators here"}
+          <Operators operators={operators}/>
         </div>
       </div>
       

@@ -4,7 +4,7 @@ const NumberButton = (props) => {
   return (
     <div>
       {
-        <button className="btn number-btn">{props.optionText}</button>
+        <button className="btn number-btn" id={"num" + props.optionText}>{props.optionText}</button>
       }
     </div>
   );

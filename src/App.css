@@ -30,6 +30,7 @@
 .btn-separator {
     display: flex;
     flex-flow: row wrap;
+    width: 75%;
 }
 
 .number-container {
@@ -61,6 +62,7 @@
 
 .operator-btn {
     background-color: #3DB5E5;
+    margin-left: 0;
 }
 
 .number-btn {
@@ -68,7 +70,8 @@
     /* border: green 2px solid; */
 }
 
-.number-btn:nth-of-type(10) {
-    width: 9rem;
-    border: cyan 1px solid;
+#num0 {
+    width: 10.5rem;
+    border-radius: 3rem;
+    /* border: cyan 1px solid; */
 }
