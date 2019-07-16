@@ -9,8 +9,6 @@
 }
 
 .logo-container {
-    /* background-color: purple; */
-    /* width: 100%; */
     padding-bottom: 1rem;
     transform: scale(.9);
 }
@@ -21,6 +19,15 @@
     height: 6rem;
     border-radius: 3rem;
     background-color: rgb(46, 46, 46);
+}
+
+.output-text {
+    color: white;
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-align: right;
 }
 
 .btn-container {
@@ -37,14 +44,11 @@
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    /* border: 1px cyan solid; */
 }
 
 .specials-container {
     display: flex;
 }
-
-
 
 .btn {
     border-radius: 50%;
@@ -67,11 +71,9 @@
 
 .number-btn {
     background-color: #113c78;
-    /* border: green 2px solid; */
 }
 
 #num0 {
     width: 10.5rem;
     border-radius: 3rem;
-    /* border: cyan 1px solid; */
 }
