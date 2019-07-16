@@ -1,11 +1,11 @@
 import React from "react";
 
 
-const Display = () => {
+const Display = (props) => {
   return (
     <div className="output">  
-      <h2 className="output-text"> hi!
-      {/* Display any props data here */}
+      <h2 className="output-text">
+      {props.count}
       </h2>
     </div>);
 };

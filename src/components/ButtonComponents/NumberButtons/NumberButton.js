@@ -1,10 +1,11 @@
 import React from "react";
 
 const NumberButton = (props) => {
+  const value = parseInt(props.optionText)
   return (
     <div>
       {
-        <button className="btn number-btn" id={"num" + props.optionText}>{props.optionText}</button>
+        <button className="btn number-btn" id={"num" + props.optionText} onClick={() => {props.handleButtonPress(value)}}>{props.optionText}</button>
       }
     </div>
   );
