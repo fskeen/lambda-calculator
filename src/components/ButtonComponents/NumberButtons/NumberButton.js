@@ -1,7 +1,7 @@
 import React from "react";
 
 const NumberButton = (props) => {
-  const value = parseInt(props.optionText)
+  const value = parseFloat(props.optionText)
   return (
     <div>
       {

@@ -20,8 +20,24 @@ function App() {
   // the "5" button, or the operator if they click one of those buttons) and then call your setter function to update state.
   // Don't forget to pass the functions (and any additional data needed) to the components as props
   const [count, setCount] = useState(0);
+// operator referenced by buttonpress function
+  let operator = "+"
+  const calculator = {
+    displayValue: '0',
+    firstOperand: null,
+    waitingForSecond: false,
+    operator: null,
+  }
+
   const handleButtonPress = (buttonValue) => {
-    setCount(buttonValue);
+
+    if (count === 0) {
+      return setCount(buttonValue);
+    } else if ((count !== 0)&& ((buttonValue >= 0 )||(buttonValue==="."))) {
+      return setCount(parseFloat(`${count}${buttonValue}`))
+    }
+
+    return;
   }
 
   return (
