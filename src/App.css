@@ -1,0 +1,79 @@
+.App {
+    background-color: #bb1233;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.logo-container {
+    padding-bottom: 1rem;
+    transform: scale(.9);
+}
+
+.output {
+    width: 100%;
+    margin: 0 1rem 1rem 1rem;
+    height: 6rem;
+    border-radius: 3rem;
+    background-color: rgb(46, 46, 46);
+}
+
+.output-text {
+    color: white;
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-align: right;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn-separator {
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+}
+
+.number-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.specials-container {
+    display: flex;
+}
+
+.btn {
+    border-radius: 50%;
+    border: none;
+    border-bottom: 4px solid #420108;
+    color: white;
+    padding: 1rem;
+    margin: .25rem .75rem;
+    min-width: 4.5rem;
+    font-size: 2rem;
+}
+.special-btn {
+    background-color: #2160b0;
+}
+
+.operator-btn {
+    background-color: #3DB5E5;
+    margin-left: 0;
+}
+
+.number-btn {
+    background-color: #113c78;
+}
+
+#num0 {
+    width: 10.5rem;
+    border-radius: 3rem;
+}

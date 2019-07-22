@@ -1,9 +1,14 @@
 import React from "react";
 
-const NumberButton = () => {
+const NumberButton = (props) => {
+  const value = parseFloat(props.optionText)
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <div>
+      {
+        <button className="btn number-btn" id={"num" + props.optionText} onClick={() => {props.handleButtonPress(value)}}>{props.optionText}</button>
+      }
+    </div>
   );
 };
+
+export default NumberButton;
